@@ -43,10 +43,21 @@ li{
     cursor: pointer;
     background-color: rgba(119, 136, 153, 0.405);
     transition: all ease .5s;
+    display: flex;
+    flex-direction: column;
 }
 li:hover{
   background-color: rgba(22, 80, 139, 0.324);
  
+}
+sub{
+    margin-top: 10px;
+    font-weight: 200;
+    display: none;
+    transition: all ease 3s;
+}
+li:hover sub{
+    display: block;
 }
 li a{
     text-decoration: none;
