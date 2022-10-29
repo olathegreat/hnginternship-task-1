@@ -135,9 +135,11 @@ footer span{
     right: 20px;
     color: lightgray;
     display: block;
+    cursor: pointer;
 }
 .mobile{
     display: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
