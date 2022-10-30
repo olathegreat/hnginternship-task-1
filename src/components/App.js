@@ -41,12 +41,16 @@ const App = () => {
 
 
       </ul>
-      
+   
 
       <div className='small-icons'>
         <img src='image/slack.png' alt='slack-logo'/>
         <img src='image/github.png' alt='github-logo'/>
       </div>
+
+       
+
+      <hr></hr>
 
       <footer>
         <img src='image/zuri-internship-img.svg' alt='ingressive-logo'/>

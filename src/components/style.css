@@ -134,10 +134,13 @@ footer img{
 }
 footer{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: space-between;
     
     align-items: center;
+}
+hr{
+    margin-top: 50px;
 }
 footer span{
     font-size: .8em;
