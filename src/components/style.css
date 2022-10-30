@@ -14,6 +14,8 @@
     flex-direction: column;
     padding: 50px;
     padding-bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     
     
 
@@ -157,12 +159,19 @@ footer span{
     width: 20px;
     height: 20px;
 }
+.external:hover{
+    background-color: lightgray;
+}
+
 .mobile{
     display: none;
     cursor: pointer;
     border-radius: 50%;
     border: 1px solid lightgray;
     padding: 10px;
+}
+.mobile:hover{
+    background-color: rgb(202, 240, 254)211, 211)211, 211);
 }
 
 @media screen and (max-width: 450px) {
