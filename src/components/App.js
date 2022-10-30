@@ -19,23 +19,22 @@ const App = () => {
          <li>
               <a id="btn_zuri" href='https://training.zuri.team'>Zuri Team</a>
 
-             <sub>Join the zuri team</sub>
+      
           </li>
          <li>
           <a id="books" href='http://books.zuri.team'>Zuri Books</a>
-          <sub>This is where you find books about design and coding</sub>
+      
           </li>
          <li>
           <a id='book_python' href='https://books.zuri.com/python-for-beginners?ref_id=<yourslackname>'>Python Books</a>
-          <sub>Find books to help you learn python from the best</sub>
+          
           </li>
          <li>
           <a id='pitch' href='https://background.zuri.team'>Background Check for Coders</a>
-          <sub>We help you know more about your coder's background</sub>
           </li>
          <li>
           <a id="book_design" href='https://books.zuri.team/design-rules'>Design Books</a>
-          <sub>where you pitch the free design book offered by Zuri.</sub>
+          
           </li>
 
 
@@ -54,8 +53,17 @@ const App = () => {
         <span>HNG Internship c Frontend Task</span>
         <img src='image/ingressive.png' alt='ingressive-logo'/>
       </footer>
-      <i className='icofont-external-link external'></i>
-      <i className='icofont-navigation-menu  mobile'></i>
+      {/* <i className='icofont-external-link external'></i> */}
+
+      {/* <i className='icofont-navigation-menu  mobile'></i> */}
+      
+      <div className='external'>
+        <img src='image/external.png'/>
+      </div>
+      <div className='mobile'>
+           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+
+      </div>
     </div>
   );
 }

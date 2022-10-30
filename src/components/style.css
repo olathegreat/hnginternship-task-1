@@ -143,14 +143,26 @@ footer span{
 .external{
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 10%;
     color: lightgray;
     display: block;
     cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.external img{
+    width: 20px;
+    height: 20px;
 }
 .mobile{
     display: none;
     cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 10px;
 }
 
 @media screen and (max-width: 450px) {
@@ -167,13 +179,14 @@ footer span{
 .app{
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
 
 }
 .mobile{
   display: none;
   position: absolute;
   top: 20px;
-  right: 30%;
+  right: 10%;
   color: lightgray;
   display: block;
 }
