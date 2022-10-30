@@ -33,7 +33,7 @@ ul{
 li{
     width: 100%;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 500;
     list-style: none;
     text-decoration: none;
     margin-bottom: 20px;
@@ -169,9 +169,10 @@ footer span{
     border-radius: 50%;
     border: 1px solid lightgray;
     padding: 10px;
+    padding-bottom: 7px;
 }
 .mobile:hover{
-    background-color: rgb(202, 240, 254)211, 211)211, 211);
+    background-color: rgb(202, 240, 254);
 }
 
 @media screen and (max-width: 450px) {
