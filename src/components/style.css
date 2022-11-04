@@ -10,6 +10,10 @@
     font-family: futurablack;
     src: url(/public/gadugib.ttf)
 }
+@font-face {
+    font-family: futuranormal;
+    src: url(/public/GEO415L.TTF)
+}
 *{
     margin: 0;
 }
@@ -275,8 +279,8 @@ footer span{
     margin-right: 10px;
 }
 .contact label{
-    font-weight: 500;
-    font-family: montserrat-medium;
+    font-weight: 900;
+    font-family: futuranormal;
     font-size: 1em;
     margin-bottom: 10px;
 }
