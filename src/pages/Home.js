@@ -40,7 +40,7 @@ const Home = () => {
           </li>
 
           <li>
-          <Link to="/contact">Contact Me</Link>
+          <Link id='contact' to="/contact">Contact Me</Link>
           
           </li>
 
