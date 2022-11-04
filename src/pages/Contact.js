@@ -10,38 +10,55 @@ const Contact = () => {
         <p>Hi there, contact me to ask about anything you have in mind</p>
 
         <form>
-            <div>
-                <div>
+            <div className='name'>
+                <div className='form-group'>
                     <label>First name</label>
-                    <input id="first_name" type="text"/>
+                    <input placeholder='Enter your first name' id="first_name" type="text"/>
                 </div>
 
-                <div>
+                <div className='form-group'>
                     <label>Last name</label>
-                    <input id='last_name' type="text"/>
+                    <input placeholder='Enter your last name' id='last_name' type="text"/>
                 </div>
             </div>
             
 
-            <div>
+            <div className='form-group'>
                     <label>Email</label>
-                    <input id='email' type="email"/>
+                    <input placeholder='yourname@email.com' id='email' type="email"/>
             </div>
 
-            <div>
+            <div className='form-group'>
                     <label>Message</label>
-                    <input type="text"/>
+                <div className='textarea-wrapper'>
+
+
+                    
+                          <textarea placeholder="Send me a message and I'll reply you as soon as possible..." id='message'>
+
+                             </textarea>
+                             
+                </div>
+        </div>
+
+            <div className='select_group'> 
+
+                 <input id='checkbox' type="checkbox"/>
+                 <p>
+                    You agree to providing your data to Ola The Great you may contact you
+
+                 </p>
+
             </div>
 
-            <input type="checkbox"/><label>You agree to providing your data to Ola The Great you may contact you</label>
         
-            <button>Send Message</button>
+            <button id='btn_submit'>Send Message</button>
         
         </form>
 
 
 
-
+        <hr></hr>
 
         <Footer/>
       

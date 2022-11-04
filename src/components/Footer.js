@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <img src='image/zuri-internship-img.svg' alt='ingressive-logo'/>
+        <div className='zurilogo'>Zuri<span className='dot'>.</span>Internship</div>
+        {/* <img src='image/zuri-internship-img.svg' alt='ingressive-logo'/> */}
         <span>HNG Internship c Frontend Task</span>
         <img src='image/ingressive.png' alt='ingressive-logo'/>
       </footer>

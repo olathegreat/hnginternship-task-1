@@ -6,6 +6,10 @@
     font-family: montserrat-medium;
     src: url(/public/MontserratAlternates-Medium.otf);
 }
+@font-face {
+    font-family: futurablack;
+    src: url(/public/gadugib.ttf)
+}
 *{
     margin: 0;
 }
@@ -158,6 +162,15 @@ footer span{
     padding-bottom: 7px;
     padding-top: 7px;
 }
+.zurilogo{
+    font-family: futurablack;
+    font-size: 1.5em;
+    
+}
+.dot{
+    color: red;
+    font-size: 2em;
+}
 .external img{
     width: 20px;
     height: 20px;
@@ -207,3 +220,151 @@ footer span{
     display: none;
 }
 }
+
+
+
+/* contact page */
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    color: rgb(25, 31, 36);
+    
+    
+
+}
+.contact h3{
+    font-size: 2em;
+    font-family: futurablack;
+    color: rgb(38, 50, 61);
+}
+
+.contact form{
+    width: inherit;
+    
+    
+}
+.contact p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.contact .name{
+    display: flex;
+    
+}
+#message{
+    height: 20vh;
+    display: block;
+    padding-top: 0;
+}
+.contact .name .form-group{
+    flex: 1;
+    
+}
+.contact .name .form-group:first-child{
+    margin-right: 10px;
+}
+.contact label{
+    font-weight: 500;
+    font-family: montserrat-medium;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.contact input{
+    margin-bottom: 30px;
+    font-size: 1em;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.contact input:focus{
+    outline: none;
+}
+
+.contact .select_group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: top;
+}
+.contact #checkbox{
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.contact button{
+    width: 100%;
+    background-color: rgb(10, 127, 253);
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: rgb(6, 111, 224)
+}
+.contact textarea{
+    
+    font-size: 1.5em;
+    
+    width: 100%;
+    border: none;
+}
+.contact textarea:focus{
+    outline: none;
+}
+.textarea-wrapper{
+    width: inherit;
+   font-family: montserrat-medium;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .contact .name{
+        flex-direction: column;
+    }
+    .contact .name .form-group:first-child{
+        margin-right: 0px;
+    }
+    .textarea-wrapper{
+        padding: 0;
+        padding-top: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .contact textarea{
+        border-radius: 0;
+        font-size: 1.2em;
+        padding-left: 10px;
+        
+        width: 95%;
+    }
+    .contact{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    
+    }
+    .contact input{
+        margin-bottom: 30px;
+    }
+ }

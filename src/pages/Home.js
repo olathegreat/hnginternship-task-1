@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { Link } from "react-router-dom";
 import "../components/style.css";
 
 const Home = () => {
@@ -38,6 +39,10 @@ const Home = () => {
           
           </li>
 
+          <li>
+          <Link to="/contact">Contact Me</Link>
+          
+          </li>
 
 
 
