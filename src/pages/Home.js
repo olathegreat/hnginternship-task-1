@@ -1,7 +1,8 @@
 import React from 'react';
-import "./style.css";
+import Footer from '../components/Footer';
+import "../components/style.css";
 
-const App = () => {
+const Home = () => {
   return (
     <div className='app'>
       <div className='user_details'>
@@ -52,15 +53,7 @@ const App = () => {
 
       <hr></hr>
 
-      <footer>
-        <img src='image/zuri-internship-img.svg' alt='ingressive-logo'/>
-        <span>HNG Internship c Frontend Task</span>
-        <img src='image/ingressive.png' alt='ingressive-logo'/>
-      </footer>
-      {/* <i className='icofont-external-link external'></i> */}
-
-      {/* <i className='icofont-navigation-menu  mobile'></i> */}
-      
+      <Footer/>
       <div className='external'>
         <img src='image/external.png'/>
       </div>
@@ -72,4 +65,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Home;
