@@ -394,4 +394,8 @@ input.checkbox{
     .contact form{
         margin-top: 30px;
     }
+    input.checkbox{
+        transform: scale(2.5);
+        margin-left: 10px;
+    }
  }
