@@ -13,19 +13,19 @@ const Contact = () => {
             <div className='name'>
                 <div className='form-group'>
                     <label>First name</label>
-                    <input placeholder='Enter your first name' id="first_name" type="text"/>
+                    <input placeholder='Enter your first name' id="first_name" type="text" required/>
                 </div>
 
                 <div className='form-group'>
                     <label>Last name</label>
-                    <input placeholder='Enter your last name' id='last_name' type="text"/>
+                    <input placeholder='Enter your last name' id='last_name' type="text" required/>
                 </div>
             </div>
             
 
             <div className='form-group'>
                     <label>Email</label>
-                    <input placeholder='yourname@email.com' id='email' type="email"/>
+                    <input placeholder='yourname@email.com' id='email' type="email" required/>
             </div>
 
             <div className='form-group'>
@@ -34,7 +34,7 @@ const Contact = () => {
 
 
                     
-                          <textarea placeholder="Send me a message and I'll reply you as soon as possible..." id='message'>
+                          <textarea required placeholder="Send me a message and I'll reply you as soon as possible..." id='message'>
 
                              </textarea>
                              
@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className='select_group'> 
 
-                 <input id='checkbox' type="checkbox"/>
+                 <input id='checkbox' className='checkbox' type="checkbox"/>
                  <p>
                     You agree to providing your data to Ola The Great you may contact you
 

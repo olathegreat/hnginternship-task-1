@@ -241,6 +241,7 @@ footer span{
     color: rgb(25, 31, 36);
     
     
+    
 
 }
 .contact h3{
@@ -303,7 +304,7 @@ footer span{
     align-items: top;
 }
 .contact #checkbox{
-    margin-right: 10px;
+
     cursor: pointer;
     
 }
@@ -324,6 +325,7 @@ footer span{
 .contact textarea{
     
     font-size: 1.5em;
+    background-color: white;
     
     width: 100%;
     border: none;
@@ -337,13 +339,28 @@ footer span{
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 20px;
+    background-color: white;
+    margin-bottom: 30px;
 }
 .select_group p{
     margin-top: 0;
+    margin-left: 30px;
+}
+
+input.checkbox{
+    transform: scale(3);
+    margin-left: 10px;
 }
 
 
-
+@media screen and (max-width:600px) {
+    .contact .name{
+        flex-direction: column;
+    }
+    .contact .name .form-group:first-child{
+        margin-right: 0px;
+    }
+}
 
 @media screen and (max-width: 450px) {
     .contact .name{
