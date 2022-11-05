@@ -338,7 +338,9 @@ footer span{
     border: 1px solid lightgray;
     border-radius: 20px;
 }
-
+.select_group p{
+    margin-top: 0;
+}
 
 
 
